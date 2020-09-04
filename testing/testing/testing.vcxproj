@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="Account_Util.h" />
     <ClInclude Include="Checking_Account.h" />
     <ClInclude Include="Savings_Account.h" />
     <ClInclude Include="Trust_Account.h" />
