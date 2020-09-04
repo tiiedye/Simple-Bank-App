@@ -1,7 +1,7 @@
 ![made-with-VisualStudio](https://img.shields.io/badge/Made%20With-Visual%20Studio-ba88f3)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
 
 # Super Simple Banking App Using Inheritance
-using a super simple banking app to play around in visual studio. Learning class Inheritance, as well as how to organize VS projects/solutions and integrate with GitHub.
+using a super simple banking app to play around in Visual Studio. Learning class Inheritance, as well as how to organize VS projects/solutions and integrate with GitHub.
 
 <img src="./assets/screenshot.png"
      alt="Img"
