@@ -38,7 +38,7 @@ void withdraw(std::vector<Account>& accounts, double amount) {
 
 // Displays Savings Account objects in a  vector of Savings Account objects 
 void display(const std::vector<Savings_Account>& accounts) {
-    std::cout << "\n========== Savings Accounts ==========" << std::endl;
+    std::cout << "\n=============== Savings Accounts ===============" << std::endl;
     for (const auto& acc : accounts) {
         std::cout << acc << std::endl;
     }
@@ -58,7 +58,7 @@ void deposit(std::vector<Savings_Account>& accounts, double amount) {
 
 // Withdraw supplied amount from each Savings Account object in the vector
 void withdraw(std::vector<Savings_Account>& accounts, double amount) {
-    std::cout << "\n==========                                                                  Withdrawing from Savings Accounts ==========" << std::endl;
+    std::cout << "\n========== Withdrawing from Savings Accounts ==========" << std::endl;
     for (auto& acc : accounts) {
         if (acc.withdraw(amount)) {
             std::cout << "Withdrew " << amount << " from " << acc << std::endl;

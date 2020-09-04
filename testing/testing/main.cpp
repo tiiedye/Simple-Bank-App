@@ -26,7 +26,7 @@ int main() {
     sav_accounts.push_back(Savings_Account{});
     sav_accounts.push_back(Savings_Account{ "Superman" });
     sav_accounts.push_back(Savings_Account{ "Batman", 2000 });
-    sav_accounts.push_back(Savings_Account{ "Wonderwoman", 5000, 5.0 });
+    sav_accounts.push_back(Savings_Account{ "Wonder Woman", 5000, 5.0 });
 
     display(sav_accounts);
     deposit(sav_accounts, 1000);
