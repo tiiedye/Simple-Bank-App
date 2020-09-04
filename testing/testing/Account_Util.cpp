@@ -21,6 +21,7 @@ void deposit(std::vector<Account>& accounts, double amount) {
     }
 }
 
+
 // Withdraw amount from each Account object in the vector
 void withdraw(std::vector<Account>& accounts, double amount) {
     std::cout << "\n========== Withdrawing from Accounts ==========" << std::endl;
