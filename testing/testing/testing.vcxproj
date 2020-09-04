@@ -144,11 +144,13 @@
     <ClCompile Include="Checking_Account.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Savings_Account.cpp" />
+    <ClCompile Include="Trust_Account.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
     <ClInclude Include="Checking_Account.h" />
     <ClInclude Include="Savings_Account.h" />
+    <ClInclude Include="Trust_Account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
